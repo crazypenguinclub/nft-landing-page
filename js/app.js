@@ -80,13 +80,13 @@ function updateStatusText(isOwner, checking) {
     if(isOwner) {
       statusText.innerText = `You do own ${Crazy Penguin's}! 🐧 Let's see how many${renderDots(dots)}`;
     } else {
-      statusText.innerText = `Checking to see if you own any ${Crazy Penguin's} 🐧${renderDots(dots)}`;
+      statusText.innerText = `Checking to see if you own any ${Crazy Penguin's}🐧${renderDots(dots)}`;
     }
   } else {
     if(isOwner) {
-      statusText.innerText = `You own ${editions.length} ${Crazy Penguin's}! 🐧`;
+      statusText.innerText = `You own ${editions.length} ${Crazy Penguin's}!🐧`;
     } else {
-      statusText.innerText = `You don't own any ${Crazy Penguin's} 😭`;
+      statusText.innerText = `You don't own any ${Crazy Penguin's}😭`;
     }
   }
   dots = dots === 3 ? 1 : dots + 1;
