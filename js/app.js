@@ -78,15 +78,15 @@ function updateStatusText(isOwner, checking) {
   const statusText = document.querySelector('.owner-status');
   if(checking) {
     if(isOwner) {
-      statusText.innerText = `You do own ${Crazy Penguin's}! 🐧 Let's see how many${renderDots(dots)}`;
+      statusText.innerText = `You do own ${Penguin}'s}! 🐧 Let's see how many${renderDots(dots)}`;
     } else {
-      statusText.innerText = `Checking to see if you own any ${Crazy Penguin's}🐧${renderDots(dots)}`;
+      statusText.innerText = `Checking to see if you own any ${Penguins}${renderDots(dots)}`;
     }
   } else {
     if(isOwner) {
-      statusText.innerText = `You own ${editions.length} ${Crazy Penguin's}!🐧`;
+      statusText.innerText = `You own ${editions.length} ${Penguin}'s}!🐧`;
     } else {
-      statusText.innerText = `You don't own any ${Crazy Penguin's}😭`;
+      statusText.innerText = `You don't own any ${Penguin}'s}!😭`;
     }
   }
   dots = dots === 3 ? 1 : dots + 1;
