@@ -1,6 +1,6 @@
 /* FONTS */
 
-@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url(//db.onlinewebfonts.com/c/9695976a255c2df78cd7554fa4d07a81?family=Upstater+Shadow);
 
 /* GLOBAL STYLES */
 
@@ -8,11 +8,11 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #044d63;
-  --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #044d63;
-  --header-shadow: #044d63;
+  --bg-color: rgb(0, 55, 100);
+  --font-color: rgb(255, 255, 255);
+  --btn-bg-color: rgb(255, 255, 255);
+  --accent-color: rgb(0, 55, 100);
+  --header-shadow: rgb(0, 55, 100);
 }
 
 * {
